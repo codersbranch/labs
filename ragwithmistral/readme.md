@@ -3,6 +3,26 @@
 RAG with mistral 
 
 ## Description
+This repository demonstrates a lightweight and efficient Retrieval-Augmented Generation (RAG) pipeline using:
+
+🧠 Mistral LLM via Ollama
+
+📚 Document loading & chunking with LangChain
+
+📦 Vector similarity search using FAISS
+
+📝 Supports .docx files as knowledge source (can be extended to PDFs, text, etc.)
+
+🧰 Tech Stack
+LangChain – for document loading and text splitting
+
+Sentence-Transformers – for generating embeddings
+
+FAISS – for fast vector similarity search
+
+Ollama – to run Mistral or other local LLMs
+
+Python-Docx – to load .docx documents
 
 ### Installing
 
