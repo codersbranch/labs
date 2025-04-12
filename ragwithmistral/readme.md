@@ -14,17 +14,19 @@ cd labs/ragwithmistral
 ```
 
 2. Create a virtual environment (optional but recommended)
+```
 python -m venv venv
+```
 Activate the virtual environment:
 
-    On Windows:
-    ```
-    venv\Scripts\activate
-    ```
-    On macOS/Linux:
-    ```
-    source venv/bin/activate
-    ```
+On Windows:
+```
+venv\Scripts\activate
+```
+On macOS/Linux:
+```
+source venv/bin/activate
+```
 
 3. Install required Python packages
  ```
@@ -44,7 +46,7 @@ or any other model of your choice.
 ### Executing program
 * How to run the program
 ```
-code blocks for commands
+python rag_doc_mistral.py
 ```
 
 ## Authors
